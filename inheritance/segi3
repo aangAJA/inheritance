@@ -1,0 +1,5 @@
+package inheritance;
+public class segitiga extends bngn_dtr{
+    float alas;
+    float lebar;
+}

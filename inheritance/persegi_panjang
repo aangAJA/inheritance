@@ -1,0 +1,5 @@
+package inheritance;
+public class PersegiPanjang extends bngn_dtr{
+    float panjang;
+    float lebar;
+}

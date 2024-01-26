@@ -1,0 +1,4 @@
+package inheritance;
+public class Lingkaran extends bngn_dtr{
+    float r;
+}

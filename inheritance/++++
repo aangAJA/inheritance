@@ -1,0 +1,37 @@
+package inheritance;
+
+public class main{
+    public static void main(String[] args){
+
+        bngn_dtr bngn_dtr = new bngn_dtr();
+
+        persgi persgi = new persgi();
+persgi.sisi = 2;
+
+lngkrn lngkrn = new lngkrn();
+lngkrn.r = 22;
+
+persegi_panjang persegi_panjang = new persegi_panjang();
+persegi_panjang.panjang = 8;
+persegi_panjang.lebar = 4;
+
+segi3 msegi3 = new segi3();
+msegi3.alas = 12;
+msegi3.tinggi = 8;
+
+bngn_dtr.luas();
+bngn_dtr.keliling();
+
+persgi.luas();
+persgi.keliling();
+
+lngkrn.luas();
+lngkrn.keliling();
+
+persegi_panjang.luas();
+persegi_panjang.keliling();
+
+msegi3.luas();
+msegi3.keliling();
+    }
+}
